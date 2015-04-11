@@ -6,14 +6,22 @@
 //  Copyright (c) 2015 Shanghai TinyNetwork Inc. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#ifndef __IMAGEIO__
+#define __IMAGEIO__
 
-//! Project version number for ImageIO.
-FOUNDATION_EXPORT double ImageIOVersionNumber;
+#ifndef __COREFOUNDATION__
+#include <CoreFoundation/CoreFoundation.h>
+#endif
 
-//! Project version string for ImageIO.
-FOUNDATION_EXPORT const unsigned char ImageIOVersionString[];
+#include <ImageIO/ImageIOBase.h>
 
-// In this header, you should import all the public headers of your framework using statements like #import <ImageIO/PublicHeader.h>
+#include <ImageIO/CGImageSource.h>
+
+#include <ImageIO/CGImageDestination.h>
+
+#include <ImageIO/CGImageProperties.h>
+
+#include <ImageIO/CGImageMetadata.h>
 
 
+#endif	/* __IMAGEIO__ */

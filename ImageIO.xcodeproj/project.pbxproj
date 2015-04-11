@@ -8,27 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		43D63C011AD7A5C000A46D35 /* ImageIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C001AD7A5C000A46D35 /* ImageIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43D63C071AD7A5C000A46D35 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D63BFB1AD7A5C000A46D35 /* ImageIO.framework */; };
-		43D63C0E1AD7A5C000A46D35 /* ImageIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C0D1AD7A5C000A46D35 /* ImageIOTests.m */; };
+		43D63C1E1AD7A68B00A46D35 /* CGImageSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C1C1AD7A68B00A46D35 /* CGImageSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C1F1AD7A68B00A46D35 /* CGImageSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C1D1AD7A68B00A46D35 /* CGImageSource.m */; };
+		43D63C221AD7A69700A46D35 /* CGImageDestination.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C201AD7A69700A46D35 /* CGImageDestination.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C231AD7A69700A46D35 /* CGImageDestination.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C211AD7A69700A46D35 /* CGImageDestination.m */; };
+		43D63C261AD7A6A200A46D35 /* CGImageProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C241AD7A6A200A46D35 /* CGImageProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C271AD7A6A200A46D35 /* CGImageProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C251AD7A6A200A46D35 /* CGImageProperties.m */; };
+		43D63C2A1AD7A6AB00A46D35 /* CGImageMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C281AD7A6AB00A46D35 /* CGImageMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C2B1AD7A6AB00A46D35 /* CGImageMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63C291AD7A6AB00A46D35 /* CGImageMetadata.m */; };
+		43D63C2E1AD7A75E00A46D35 /* ImageIOBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63C2C1AD7A75E00A46D35 /* ImageIOBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63C311AD7A98000A46D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D63C301AD7A98000A46D35 /* Foundation.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		43D63C081AD7A5C000A46D35 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 43D63BF21AD7A5C000A46D35 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 43D63BFA1AD7A5C000A46D35;
-			remoteInfo = ImageIO;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		43D63BFB1AD7A5C000A46D35 /* ImageIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D63BFF1AD7A5C000A46D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43D63C001AD7A5C000A46D35 /* ImageIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageIO.h; sourceTree = "<group>"; };
-		43D63C061AD7A5C000A46D35 /* ImageIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		43D63C0C1AD7A5C000A46D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43D63C0D1AD7A5C000A46D35 /* ImageIOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageIOTests.m; sourceTree = "<group>"; };
+		43D63C181AD7A5DD00A46D35 /* Android-arm.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Android-arm.xcconfig"; sourceTree = "<group>"; };
+		43D63C191AD7A5DD00A46D35 /* Android-x86.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Android-x86.xcconfig"; sourceTree = "<group>"; };
+		43D63C1A1AD7A5DD00A46D35 /* Android.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Android.xcconfig; sourceTree = "<group>"; };
+		43D63C1C1AD7A68B00A46D35 /* CGImageSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageSource.h; sourceTree = "<group>"; };
+		43D63C1D1AD7A68B00A46D35 /* CGImageSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageSource.m; sourceTree = "<group>"; };
+		43D63C201AD7A69700A46D35 /* CGImageDestination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageDestination.h; sourceTree = "<group>"; };
+		43D63C211AD7A69700A46D35 /* CGImageDestination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageDestination.m; sourceTree = "<group>"; };
+		43D63C241AD7A6A200A46D35 /* CGImageProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageProperties.h; sourceTree = "<group>"; };
+		43D63C251AD7A6A200A46D35 /* CGImageProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageProperties.m; sourceTree = "<group>"; };
+		43D63C281AD7A6AB00A46D35 /* CGImageMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageMetadata.h; sourceTree = "<group>"; };
+		43D63C291AD7A6AB00A46D35 /* CGImageMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageMetadata.m; sourceTree = "<group>"; };
+		43D63C2C1AD7A75E00A46D35 /* ImageIOBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageIOBase.h; sourceTree = "<group>"; };
+		43D63C301AD7A98000A46D35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,14 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43D63C031AD7A5C000A46D35 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43D63C071AD7A5C000A46D35 /* ImageIO.framework in Frameworks */,
+				43D63C311AD7A98000A46D35 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +54,8 @@
 		43D63BF11AD7A5C000A46D35 = {
 			isa = PBXGroup;
 			children = (
+				43D63C171AD7A5DD00A46D35 /* xcconfig */,
 				43D63BFD1AD7A5C000A46D35 /* ImageIO */,
-				43D63C0A1AD7A5C000A46D35 /* ImageIOTests */,
 				43D63BFC1AD7A5C000A46D35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				43D63BFB1AD7A5C000A46D35 /* ImageIO.framework */,
-				43D63C061AD7A5C000A46D35 /* ImageIOTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +72,15 @@
 			isa = PBXGroup;
 			children = (
 				43D63C001AD7A5C000A46D35 /* ImageIO.h */,
+				43D63C2C1AD7A75E00A46D35 /* ImageIOBase.h */,
+				43D63C1C1AD7A68B00A46D35 /* CGImageSource.h */,
+				43D63C1D1AD7A68B00A46D35 /* CGImageSource.m */,
+				43D63C201AD7A69700A46D35 /* CGImageDestination.h */,
+				43D63C211AD7A69700A46D35 /* CGImageDestination.m */,
+				43D63C241AD7A6A200A46D35 /* CGImageProperties.h */,
+				43D63C251AD7A6A200A46D35 /* CGImageProperties.m */,
+				43D63C281AD7A6AB00A46D35 /* CGImageMetadata.h */,
+				43D63C291AD7A6AB00A46D35 /* CGImageMetadata.m */,
 				43D63BFE1AD7A5C000A46D35 /* Supporting Files */,
 			);
 			path = ImageIO;
@@ -80,26 +89,20 @@
 		43D63BFE1AD7A5C000A46D35 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				43D63C301AD7A98000A46D35 /* Foundation.framework */,
 				43D63BFF1AD7A5C000A46D35 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		43D63C0A1AD7A5C000A46D35 /* ImageIOTests */ = {
+		43D63C171AD7A5DD00A46D35 /* xcconfig */ = {
 			isa = PBXGroup;
 			children = (
-				43D63C0D1AD7A5C000A46D35 /* ImageIOTests.m */,
-				43D63C0B1AD7A5C000A46D35 /* Supporting Files */,
+				43D63C181AD7A5DD00A46D35 /* Android-arm.xcconfig */,
+				43D63C191AD7A5DD00A46D35 /* Android-x86.xcconfig */,
+				43D63C1A1AD7A5DD00A46D35 /* Android.xcconfig */,
 			);
-			path = ImageIOTests;
-			sourceTree = "<group>";
-		};
-		43D63C0B1AD7A5C000A46D35 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				43D63C0C1AD7A5C000A46D35 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = xcconfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,7 +112,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D63C2A1AD7A6AB00A46D35 /* CGImageMetadata.h in Headers */,
+				43D63C221AD7A69700A46D35 /* CGImageDestination.h in Headers */,
 				43D63C011AD7A5C000A46D35 /* ImageIO.h in Headers */,
+				43D63C2E1AD7A75E00A46D35 /* ImageIOBase.h in Headers */,
+				43D63C1E1AD7A68B00A46D35 /* CGImageSource.h in Headers */,
+				43D63C261AD7A6A200A46D35 /* CGImageProperties.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +132,7 @@
 				43D63BF71AD7A5C000A46D35 /* Frameworks */,
 				43D63BF81AD7A5C000A46D35 /* Headers */,
 				43D63BF91AD7A5C000A46D35 /* Resources */,
+				43D63C1B1AD7A5FA00A46D35 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -133,24 +142,6 @@
 			productName = ImageIO;
 			productReference = 43D63BFB1AD7A5C000A46D35 /* ImageIO.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		43D63C051AD7A5C000A46D35 /* ImageIOTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 43D63C141AD7A5C000A46D35 /* Build configuration list for PBXNativeTarget "ImageIOTests" */;
-			buildPhases = (
-				43D63C021AD7A5C000A46D35 /* Sources */,
-				43D63C031AD7A5C000A46D35 /* Frameworks */,
-				43D63C041AD7A5C000A46D35 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				43D63C091AD7A5C000A46D35 /* PBXTargetDependency */,
-			);
-			name = ImageIOTests;
-			productName = ImageIOTests;
-			productReference = 43D63C061AD7A5C000A46D35 /* ImageIOTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -162,9 +153,6 @@
 				ORGANIZATIONNAME = "Shanghai TinyNetwork Inc.";
 				TargetAttributes = {
 					43D63BFA1AD7A5C000A46D35 = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
-					43D63C051AD7A5C000A46D35 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
@@ -182,7 +170,6 @@
 			projectRoot = "";
 			targets = (
 				43D63BFA1AD7A5C000A46D35 /* ImageIO */,
-				43D63C051AD7A5C000A46D35 /* ImageIOTests */,
 			);
 		};
 /* End PBXProject section */
@@ -195,40 +182,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43D63C041AD7A5C000A46D35 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43D63C1B1AD7A5FA00A46D35 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "pushd \"$SDK_LIB_PATH\"\nln -sf \"$LD_DYLIB_INSTALL_NAME\" \"lib$PRODUCT_NAME.so\"\npopd\n\npushd \"$SDK_ROOT/usr/include\"\nln -sf \"$INSTALL_PATH/$PUBLIC_HEADERS_FOLDER_PATH\" \"$PRODUCT_NAME\"\npopd\n";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43D63BF61AD7A5C000A46D35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43D63C021AD7A5C000A46D35 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43D63C0E1AD7A5C000A46D35 /* ImageIOTests.m in Sources */,
+				43D63C231AD7A69700A46D35 /* CGImageDestination.m in Sources */,
+				43D63C271AD7A6A200A46D35 /* CGImageProperties.m in Sources */,
+				43D63C2B1AD7A6AB00A46D35 /* CGImageMetadata.m in Sources */,
+				43D63C1F1AD7A68B00A46D35 /* CGImageSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		43D63C091AD7A5C000A46D35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 43D63BFA1AD7A5C000A46D35 /* ImageIO */;
-			targetProxy = 43D63C081AD7A5C000A46D35 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		43D63C0F1AD7A5C000A46D35 /* Debug */ = {
@@ -268,7 +252,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx0.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -305,7 +289,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = macosx0.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -313,67 +297,37 @@
 		};
 		43D63C121AD7A5C000A46D35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D63C1A1AD7A5DD00A46D35 /* Android.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ImageIO/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SDKROOT = macosx0.0;
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
 		43D63C131AD7A5C000A46D35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D63C1A1AD7A5DD00A46D35 /* Android.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
+				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ImageIO/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		43D63C151AD7A5C000A46D35 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ImageIOTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		43D63C161AD7A5C000A46D35 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ImageIOTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx0.0;
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
@@ -394,14 +348,6 @@
 			buildConfigurations = (
 				43D63C121AD7A5C000A46D35 /* Debug */,
 				43D63C131AD7A5C000A46D35 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		43D63C141AD7A5C000A46D35 /* Build configuration list for PBXNativeTarget "ImageIOTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				43D63C151AD7A5C000A46D35 /* Debug */,
-				43D63C161AD7A5C000A46D35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
