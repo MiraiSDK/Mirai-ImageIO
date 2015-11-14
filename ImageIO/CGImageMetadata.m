@@ -7,7 +7,3 @@
 //
 
 #import "CGImageMetadata.h"
-
-@implementation CGImageMetadata
-
-@end

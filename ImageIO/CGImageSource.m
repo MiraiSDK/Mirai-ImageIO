@@ -8,6 +8,3 @@
 
 #import "CGImageSource.h"
 
-@implementation CGImageSource
-
-@end

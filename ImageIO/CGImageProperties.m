@@ -7,3 +7,6 @@
 //
 
 #import "CGImageProperties.h"
+
+const CFStringRef kCGImagePropertyPixelHeight = @"CGImagePropertyPixelHeight";
+const CFStringRef kCGImagePropertyPixelWidth = @"CGImagePropertyPixelWidth";
